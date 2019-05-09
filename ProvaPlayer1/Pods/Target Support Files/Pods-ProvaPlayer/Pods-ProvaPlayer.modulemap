@@ -1,0 +1,6 @@
+framework module Pods_ProvaPlayer {
+  umbrella header "Pods-ProvaPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

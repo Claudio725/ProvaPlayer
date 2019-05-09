@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+platform :ios, '10.3'
+
+workspace 'ProvaPlayer'
+
+target 'ProvaPlayer' do
+    project 'ProvaPlayer'
+    
+    use_frameworks!
+    
+    pod 'BitmovinPlayer', git: 'https://github.com/bitmovin/bitmovin-player-ios-sdk-cocoapod.git', tag: '2.25.0'
+end
